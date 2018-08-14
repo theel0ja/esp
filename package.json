@@ -1,0 +1,20 @@
+{
+  "name": "ecmascript-pages",
+  "version": "0.1.0",
+  "description": "PHP-like framework using EcmaScript.",
+  "main": "src/index.js",
+  "bin": {
+    "esp": "./bin/esp-cli.js"
+  },
+  "repository": "git@github.com:theel0ja/esp.git",
+  "author": "Elias Ojala <elias.ojala@npm.mail.kapsi.fi>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "nodemon": "^1.18.3"
+  }
+}
